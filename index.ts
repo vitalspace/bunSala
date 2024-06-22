@@ -7,8 +7,8 @@ interface Player {
 
 const rooms: Record<string, Player[]> = {
   main: [],
-  sala1: [],
-  sala2: []
+  room1: [],
+  room2: []
 };
 
 interface CustomServerWebSocket extends ServerWebSocket {
